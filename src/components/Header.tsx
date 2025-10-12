@@ -36,8 +36,8 @@ const Header: React.FC = () => {
             {/* <div className="rounded-circle p-2 me-2" 
                  style={{ background: 'linear-gradient(135deg, #1e40af 0%, #60a5fa 100%)' }}> */}
               <img 
-                src="/logo-dulich.png" 
-                alt="Du Lịch Việt Logo" 
+                src={`${process.env.PUBLIC_URL}/logo-dulich.png`}
+                alt="GoVibe Logo" 
                 style={{ width: '50x', height: '50px', objectFit: 'contain' }}
                 onError={(e) => {
                   // Fallback nếu logo không load được
