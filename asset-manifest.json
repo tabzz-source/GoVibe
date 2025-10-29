@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/GoVibe/static/css/main.38b9dae0.css",
-    "main.js": "/GoVibe/static/js/main.e9739d5e.js",
+    "main.js": "/GoVibe/static/js/main.a6250bb1.js",
     "static/js/453.96b48e24.chunk.js": "/GoVibe/static/js/453.96b48e24.chunk.js",
     "index.html": "/GoVibe/index.html",
     "main.38b9dae0.css.map": "/GoVibe/static/css/main.38b9dae0.css.map",
-    "main.e9739d5e.js.map": "/GoVibe/static/js/main.e9739d5e.js.map",
+    "main.a6250bb1.js.map": "/GoVibe/static/js/main.a6250bb1.js.map",
     "453.96b48e24.chunk.js.map": "/GoVibe/static/js/453.96b48e24.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.38b9dae0.css",
-    "static/js/main.e9739d5e.js"
+    "static/js/main.a6250bb1.js"
   ]
 }
