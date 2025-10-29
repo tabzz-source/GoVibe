@@ -38,7 +38,7 @@ const Header: React.FC = () => {
               <img 
                 src={`${process.env.PUBLIC_URL}/logo-dulich.png`}
                 alt="GoVibe Logo" 
-                style={{ width: '50x', height: '50px', objectFit: 'contain' }}
+                style={{ width: '50x', height: '70px', objectFit: 'contain' }}
                 onError={(e) => {
                   // Fallback nếu logo không load được
                   const target = e.target as HTMLImageElement;
@@ -48,9 +48,23 @@ const Header: React.FC = () => {
                   target.parentNode?.appendChild(fallbackIcon);
                 }}
               />
+              
             {/* </div> */}
           </div>
-          <span className="gradient-text fs-3">GoVibe</span>
+          <img 
+                src={`${process.env.PUBLIC_URL}/typo.png`}
+                alt="GoVibe Logo" 
+                style={{ width: '50x', height: '30px', objectFit: 'contain' }}
+                onError={(e) => {
+                  // Fallback nếu logo không load được
+                  const target = e.target as HTMLImageElement;
+                  target.style.display = 'none';
+                  const fallbackIcon = document.createElement('i');
+                  fallbackIcon.className = 'bi bi-airplane-engines text-white fs-4';
+                  target.parentNode?.appendChild(fallbackIcon);
+                }}
+              />
+          {/* <span className="gradient-text fs-3">GoVibe</span> */}
         </Link>
         
         <button
